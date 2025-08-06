@@ -8,7 +8,7 @@ Challenges were found in understanding and reviewing C strings and method use, s
 This is a good program to try building if you want to review these things. 
 -> But, make sure you test in a new folder. Don't want you to be accidently removing all your files!
 
-Example:\n
+Example:<br>
 % ls
 a.txt b.txt c.txt leave.c leave
 % ./leave a.txt
