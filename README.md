@@ -7,3 +7,10 @@ It involves library system calls and file I/O.
 Challenges were found in understanding and reviewing C strings and method use, such as arrays, char pointers, strcat, strcpy, and fgets. Remembering string literals are in the code segment -> NOT to be written to!
 This is a good program to try building if you want to review these things. 
 -> But, make sure you test in a new folder. Don't want you to be accidently removing all your files!
+
+Example:
+% ls
+a.txt b.txt c.txt leave.c leave
+% ./leave a.txt
+% ls
+a.txt leave.c leave
